@@ -7,7 +7,7 @@ DOODSTREAM_API_KEY = 'YOUR_DOODSTREAM_API_KEY'
 # ... other constant declarations ...
 
 def start(update, context):
-    update.message.reply_text('Bot working!')
+    context.bot.send_message(chat_id=update.message.chat_id, text='Bot working!')
 
 # ... existing code ...
 
