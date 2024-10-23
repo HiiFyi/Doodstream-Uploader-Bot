@@ -2,8 +2,8 @@ from telegram.ext import Updater, MessageHandler, Filters, CommandHandler
 import requests
 import os
 
-TOKEN = 'YOUR_BOT_TOKEN'
-DOODSTREAM_API_KEY = 'YOUR_DOODSTREAM_API_KEY'
+TOKEN = '7609207287:AAHNsu8KgFmicSN0aPIRcJe0DaeVeluV3hk'
+DOODSTREAM_API_KEY = '462790fpirlczqa85lp0j4'
 # ... other constant declarations ...
 
 def start(update, context):
